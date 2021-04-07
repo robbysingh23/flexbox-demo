@@ -1,0 +1,26 @@
+.container {
+  border: 2px solid crimson;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.container__item {
+  width: 200px;
+  margin: 10px;
+  border: 2px solid crimson;
+  background-color: greenyellow;
+}
+
+.container__item1 {
+  min-height: 300px;
+}
+
+.container__item2 {
+  min-height: 100px;
+}
+
+.container__item3 {
+  min-height: 200px;
+}
